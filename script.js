@@ -56,7 +56,7 @@ function handleCellClick(i) {
     // Show gift card and code
     giftcardContainer.style.display = 'block';
     redeemCodeDiv.style.display = 'block';
-    redeemCodeDiv.innerHTML = 'You won a Google Play gift card <b>K23GSAEHD9TASXVS</b>';
+    redeemCodeDiv.innerHTML = 'You won a Google Play gift card <b>Try Next Time</b>';
     tryAgainDiv.style.display = 'none';
   } else if (board.every(cell => cell)) {
     resultDiv.textContent = "It's a draw!";
